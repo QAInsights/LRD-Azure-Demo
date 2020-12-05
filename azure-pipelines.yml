@@ -6,9 +6,12 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+#pool:
+#  vmImage: 'ubuntu-latest'
+#  vmImage: 
 
+pool:
+  vmImage: 'demo'
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
