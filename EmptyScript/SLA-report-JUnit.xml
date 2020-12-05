@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="EmptyScript" tests="1" failures="1">
-        <testcase name="Total Passed Transactions - 1 passing transactions, not exceeding the defined amount 2500">
-            <failure message="SLA &#34;Total Passed Transactions&#34; failed." type="ERROR">There are 1 passing transactions, not exceeding the defined amount of 2500</failure>
-        </testcase>
+    <testsuite name="EmptyScript" tests="1">
+        <testcase name="Total Passed Transactions - 30 passing transactions, passed the threshold of 10" systemOut="SLA &#34;Total Passed Transactions&#34; passed.&#xA;There are 30 passing transactions, passed the threshold of 10."></testcase>
     </testsuite>
 </testsuites>

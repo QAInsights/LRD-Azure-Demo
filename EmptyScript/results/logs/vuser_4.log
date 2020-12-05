@@ -1,0 +1,226 @@
+[20:59:45.96] Debug: Running build Release_2020.3.0_1869 on windows
+[20:59:45.99] Info: Starting initialize.
+[20:59:45.99] Info: Ending initialize.
+[20:59:45.99] Info: Starting iteration 1.
+[20:59:46.00] Info: Transaction 'T00_HomePage' started.	(./main.js:14:9)
+[20:59:46.00] Info: WebRequest [Id: 1] 'http://www.example.com/' registered to send (sync).
+[20:59:46.00] Trace: Request [Id: 1] 'http://www.example.com/': 
+GET / HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[20:59:46.00] Debug: Request [Id: 1]: GET 'http://www.example.com/' started.
+[20:59:46.00] Trace: Request [Id: 1]: Connecting tcp socket to host [2606:2800:220:1:248:1893:25c8:1946]:80.
+[20:59:46.19] Trace: Request [Id: 1]: Connection to host [2606:2800:220:1:248:1893:25c8:1946]:80 done.
+[20:59:46.19] Trace: Request [Id: 1]: New connection from [2603:6011:2244:700:a94f:d1cf:a120:3024]:34129 to [2606:2800:220:1:248:1893:25c8:1946]:80 in 186 ms.
+[20:59:46.37] Debug: Request [Id: 1]: GET 'http://www.example.com/' done. Status 200 OK. HTTP/1.1
+[20:59:46.37] Trace: Response 'http://www.example.com/': 
+HTTP/1.1 200 OK
+Content-Length: 648
+Accept-Ranges: bytes
+Age: 269314
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 05 Dec 2020 01:59:46 GMT
+Etag: "3147526947"
+Expires: Sat, 12 Dec 2020 01:59:46 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (ord/572F)
+Vary: Accept-Encoding
+X-Cache: HIT
+
+
+[20:59:46.37] Info: WebRequest [Id: 1] 'http://www.example.com/' completed. (1 request(s) sent, 1022 bytes downloaded)
+[20:59:46.39] Info: Transaction 'T00_HomePage' ended with a 'Passed' status (Duration: 386 ms., ThinkTime: 0 ms.).	(./main.js:26:9)
+[20:59:46.40] Info: Ending iteration 1.
+[20:59:46.40] Info: Waiting 5 seconds for iteration pacing.
+[20:59:51.41] Info: Starting iteration 2.
+[20:59:51.41] Info: Transaction 'T00_HomePage' started.	(./main.js:14:9)
+[20:59:51.41] Info: WebRequest [Id: 1] 'http://www.example.com/' registered to send (sync).
+[20:59:51.41] Trace: Request [Id: 1] 'http://www.example.com/': 
+GET / HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[20:59:51.41] Debug: Request [Id: 1]: GET 'http://www.example.com/' started.
+[20:59:51.41] Trace: Request [Id: 1]: Connecting tcp socket to host [2606:2800:220:1:248:1893:25c8:1946]:80.
+[20:59:51.48] Trace: Request [Id: 1]: Connection to host [2606:2800:220:1:248:1893:25c8:1946]:80 done.
+[20:59:51.48] Trace: Request [Id: 1]: New connection from [2603:6011:2244:700:a94f:d1cf:a120:3024]:34143 to [2606:2800:220:1:248:1893:25c8:1946]:80 in 74 ms.
+[20:59:51.65] Debug: Request [Id: 1]: GET 'http://www.example.com/' done. Status 200 OK. HTTP/1.1
+[20:59:51.65] Trace: Response 'http://www.example.com/': 
+HTTP/1.1 200 OK
+Content-Length: 648
+Accept-Ranges: bytes
+Age: 377832
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 05 Dec 2020 01:59:51 GMT
+Etag: "3147526947"
+Expires: Sat, 12 Dec 2020 01:59:51 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (ord/4C84)
+Vary: Accept-Encoding
+X-Cache: HIT
+
+
+[20:59:51.66] Info: WebRequest [Id: 1] 'http://www.example.com/' completed. (1 request(s) sent, 1022 bytes downloaded)
+[20:59:51.66] Info: Transaction 'T00_HomePage' ended with a 'Passed' status (Duration: 252 ms., ThinkTime: 0 ms.).	(./main.js:26:9)
+[20:59:51.66] Info: Ending iteration 2.
+[20:59:51.67] Info: Waiting 5 seconds for iteration pacing.
+[20:59:56.67] Info: Starting iteration 3.
+[20:59:56.67] Info: Transaction 'T00_HomePage' started.	(./main.js:14:9)
+[20:59:56.68] Info: WebRequest [Id: 1] 'http://www.example.com/' registered to send (sync).
+[20:59:56.68] Trace: Request [Id: 1] 'http://www.example.com/': 
+GET / HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[20:59:56.68] Debug: Request [Id: 1]: GET 'http://www.example.com/' started.
+[20:59:56.68] Trace: Request [Id: 1]: Connecting tcp socket to host [2606:2800:220:1:248:1893:25c8:1946]:80.
+[20:59:56.77] Trace: Request [Id: 1]: Connection to host [2606:2800:220:1:248:1893:25c8:1946]:80 done.
+[20:59:56.78] Trace: Request [Id: 1]: New connection from [2603:6011:2244:700:a94f:d1cf:a120:3024]:34153 to [2606:2800:220:1:248:1893:25c8:1946]:80 in 92 ms.
+[20:59:56.94] Debug: Request [Id: 1]: GET 'http://www.example.com/' done. Status 200 OK. HTTP/1.1
+[20:59:56.94] Trace: Response 'http://www.example.com/': 
+HTTP/1.1 200 OK
+Content-Length: 648
+Accept-Ranges: bytes
+Age: 62870
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 05 Dec 2020 01:59:57 GMT
+Etag: "3147526947"
+Expires: Sat, 12 Dec 2020 01:59:57 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (ord/572A)
+Vary: Accept-Encoding
+X-Cache: HIT
+
+
+[20:59:56.94] Info: WebRequest [Id: 1] 'http://www.example.com/' completed. (1 request(s) sent, 1021 bytes downloaded)
+[20:59:56.94] Info: Transaction 'T00_HomePage' ended with a 'Passed' status (Duration: 270 ms., ThinkTime: 0 ms.).	(./main.js:26:9)
+[20:59:56.96] Info: Ending iteration 3.
+[20:59:56.96] Info: Waiting 5 seconds for iteration pacing.
+[21:00:01.97] Info: Starting iteration 4.
+[21:00:01.97] Info: Transaction 'T00_HomePage' started.	(./main.js:14:9)
+[21:00:01.98] Info: WebRequest [Id: 1] 'http://www.example.com/' registered to send (sync).
+[21:00:01.98] Trace: Request [Id: 1] 'http://www.example.com/': 
+GET / HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[21:00:01.98] Debug: Request [Id: 1]: GET 'http://www.example.com/' started.
+[21:00:01.99] Trace: Request [Id: 1]: Connecting tcp socket to host [2606:2800:220:1:248:1893:25c8:1946]:80.
+[21:00:02.33] Trace: Request [Id: 1]: Connecting tcp socket to host 93.184.216.34:80.
+[21:00:03.11] Trace: Request [Id: 1]: Connection to host [2606:2800:220:1:248:1893:25c8:1946]:80 done.
+[21:00:03.11] Trace: Request [Id: 1]: New connection from [2603:6011:2244:700:a94f:d1cf:a120:3024]:34169 to [2606:2800:220:1:248:1893:25c8:1946]:80 in 777 ms.
+[21:00:03.11] Trace: Request [Id: 1]: Connection to host 93.184.216.34:80 done.
+[21:00:03.11] Trace: Connection failure to host 93.184.216.34:80. err: dial tcp 93.184.216.34:80: operation was canceled
+[21:00:03.27] Debug: Request [Id: 1]: GET 'http://www.example.com/' done. Status 200 OK. HTTP/1.1
+[21:00:03.27] Trace: Response 'http://www.example.com/': 
+HTTP/1.1 200 OK
+Content-Length: 648
+Age: 378629
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 05 Dec 2020 02:00:03 GMT
+Etag: "3147526947+gzip"
+Expires: Sat, 12 Dec 2020 02:00:03 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (ord/573D)
+Vary: Accept-Encoding
+X-Cache: HIT
+
+
+[21:00:03.27] Info: WebRequest [Id: 1] 'http://www.example.com/' completed. (1 request(s) sent, 1005 bytes downloaded)
+[21:00:03.27] Info: Transaction 'T00_HomePage' ended with a 'Passed' status (Duration: 1299 ms., ThinkTime: 0 ms.).	(./main.js:26:9)
+[21:00:03.28] Info: Ending iteration 4.
+[21:00:03.28] Info: Waiting 5 seconds for iteration pacing.
+[21:00:08.29] Info: Starting iteration 5.
+[21:00:08.29] Info: Transaction 'T00_HomePage' started.	(./main.js:14:9)
+[21:00:08.29] Info: WebRequest [Id: 1] 'http://www.example.com/' registered to send (sync).
+[21:00:08.29] Trace: Request [Id: 1] 'http://www.example.com/': 
+GET / HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[21:00:08.29] Debug: Request [Id: 1]: GET 'http://www.example.com/' started.
+[21:00:08.29] Trace: Request [Id: 1]: Connecting tcp socket to host [2606:2800:220:1:248:1893:25c8:1946]:80.
+[21:00:08.38] Trace: Request [Id: 1]: Connection to host [2606:2800:220:1:248:1893:25c8:1946]:80 done.
+[21:00:08.38] Trace: Request [Id: 1]: New connection from [2603:6011:2244:700:a94f:d1cf:a120:3024]:34194 to [2606:2800:220:1:248:1893:25c8:1946]:80 in 87 ms.
+[21:00:08.50] Debug: Request [Id: 1]: GET 'http://www.example.com/' done. Status 200 OK. HTTP/1.1
+[21:00:08.50] Trace: Response 'http://www.example.com/': 
+HTTP/1.1 200 OK
+Content-Length: 648
+Age: 551882
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 05 Dec 2020 02:00:08 GMT
+Etag: "3147526947+gzip"
+Expires: Sat, 12 Dec 2020 02:00:08 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (ord/4CDA)
+Vary: Accept-Encoding
+X-Cache: HIT
+
+
+[21:00:08.50] Info: WebRequest [Id: 1] 'http://www.example.com/' completed. (1 request(s) sent, 1005 bytes downloaded)
+[21:00:08.50] Info: Transaction 'T00_HomePage' ended with a 'Passed' status (Duration: 209 ms., ThinkTime: 0 ms.).	(./main.js:26:9)
+[21:00:08.52] Info: Ending iteration 5.
+[21:00:08.52] Info: Waiting 5 seconds for iteration pacing.
+[21:00:13.52] Info: Starting iteration 6.
+[21:00:13.52] Info: Transaction 'T00_HomePage' started.	(./main.js:14:9)
+[21:00:13.53] Info: WebRequest [Id: 1] 'http://www.example.com/' registered to send (sync).
+[21:00:13.53] Trace: Request [Id: 1] 'http://www.example.com/': 
+GET / HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[21:00:13.53] Debug: Request [Id: 1]: GET 'http://www.example.com/' started.
+[21:00:13.53] Trace: Request [Id: 1]: Connecting tcp socket to host [2606:2800:220:1:248:1893:25c8:1946]:80.
+[21:00:13.68] Trace: Request [Id: 1]: Connection to host [2606:2800:220:1:248:1893:25c8:1946]:80 done.
+[21:00:13.68] Trace: Request [Id: 1]: New connection from [2603:6011:2244:700:a94f:d1cf:a120:3024]:34213 to [2606:2800:220:1:248:1893:25c8:1946]:80 in 151 ms.
+[21:00:14.21] Debug: Request [Id: 1]: GET 'http://www.example.com/' done. Status 200 OK. HTTP/1.1
+[21:00:14.21] Trace: Response 'http://www.example.com/': 
+HTTP/1.1 200 OK
+Content-Length: 648
+Age: 551887
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 05 Dec 2020 02:00:13 GMT
+Etag: "3147526947+gzip"
+Expires: Sat, 12 Dec 2020 02:00:13 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (ord/4CDA)
+Vary: Accept-Encoding
+X-Cache: HIT
+
+
+[21:00:14.21] Info: WebRequest [Id: 1] 'http://www.example.com/' completed. (1 request(s) sent, 1005 bytes downloaded)
+[21:00:14.21] Info: Transaction 'T00_HomePage' ended with a 'Passed' status (Duration: 685 ms., ThinkTime: 0 ms.).	(./main.js:26:9)
+[21:00:14.21] Info: Ending iteration 6.
+[21:00:14.22] Info: Starting finalize.
+[21:00:14.22] Info: Ending finalize.

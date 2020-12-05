@@ -1,5 +1,5 @@
 name: devWeb
-version: 2020.2.0
+version: 2020.3.0
 
 enabled: true                                                 # Allows the user to enable or disable all the rules in a category.
 reporterType: JUnit                                           # Allows to change the reporter type, supported reporters: [JUnit, Tap].
@@ -9,4 +9,4 @@ rules:                                                        # List of the rule
     type: passingTransactions
     enabled: true
     arguments:
-      amount: 2500                                            # The minimum amount of passed transactions for the SLA to pass.
+      amount: 10                                            # The minimum amount of passed transactions for the SLA to pass.
