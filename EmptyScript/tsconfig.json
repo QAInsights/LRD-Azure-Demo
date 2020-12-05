@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true
+  },
+    "files":[
+      "DevWebSdk.d.ts",
+    ],
+    "include": [
+      "./*.js"
+    ]
+}
