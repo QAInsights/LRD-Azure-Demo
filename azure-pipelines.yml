@@ -11,7 +11,7 @@ trigger:
 #  vmImage: 
 
 pool:
-  vmImage: 'DevWeb'
+  vmImage: 'devweb'
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
