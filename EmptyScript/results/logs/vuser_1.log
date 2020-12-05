@@ -1,0 +1,44 @@
+[20:56:39.93] Debug: Running build Release_2020.3.0_1869 on windows
+[20:56:39.93] Info: Starting initialize.
+[20:56:39.93] Info: Ending initialize.
+[20:56:39.94] Info: Starting iteration 1.
+[20:56:39.94] Info: Transaction 'T00_HomePage' started.	(./main.js:14:9)
+[20:56:39.94] Info: WebRequest [Id: 1] 'http://www.example.com/' registered to send (sync).
+[20:56:39.94] Trace: Request [Id: 1] 'http://www.example.com/': 
+GET / HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+[20:56:39.94] Debug: Request [Id: 1]: GET 'http://www.example.com/' started.
+[20:56:39.96] Trace: Request [Id: 1]: Connecting tcp socket to host [2606:2800:220:1:248:1893:25c8:1946]:80.
+[20:56:40.26] Trace: Request [Id: 1]: Connecting tcp socket to host 93.184.216.34:80.
+[20:56:40.51] Trace: Request [Id: 1]: Connection to host 93.184.216.34:80 done.
+[20:56:40.51] Trace: Request [Id: 1]: New connection from 192.168.0.18:33971 to 93.184.216.34:80 in 246 ms.
+[20:56:40.51] Trace: Request [Id: 1]: Connection to host [2606:2800:220:1:248:1893:25c8:1946]:80 done.
+[20:56:40.51] Trace: Connection failure to host [2606:2800:220:1:248:1893:25c8:1946]:80. err: dial tcp [2606:2800:220:1:248:1893:25c8:1946]:80: operation was canceled
+[20:56:40.63] Debug: Request [Id: 1]: GET 'http://www.example.com/' done. Status 200 OK. HTTP/1.1
+[20:56:40.63] Trace: Response 'http://www.example.com/': 
+HTTP/1.1 200 OK
+Content-Length: 648
+Accept-Ranges: bytes
+Age: 378426
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 05 Dec 2020 01:56:40 GMT
+Etag: "3147526947"
+Expires: Sat, 12 Dec 2020 01:56:40 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Server: ECS (ord/573A)
+Vary: Accept-Encoding
+X-Cache: HIT
+
+
+[20:56:40.63] Info: WebRequest [Id: 1] 'http://www.example.com/' completed. (1 request(s) sent, 1022 bytes downloaded)
+[20:56:40.64] Info: Transaction 'T00_HomePage' ended with a 'Passed' status (Duration: 699 ms., ThinkTime: 0 ms.).	(./main.js:26:9)
+[20:56:40.65] Info: Ending iteration 1.
+[20:56:40.65] Info: Starting finalize.
+[20:56:40.66] Info: Ending finalize.
